@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
+
+:root {
+    --white : rgba(255, 255, 255, 1);
+    --dark : rgb(4, 4, 148);
+    --pink : rgba(233, 58, 125, 1);
+}
+
+body {
+    color: var(--white);
+    padding: 20px 160px;
+    background-color: var(--dark);
+    height: 106vh;
+    font-family: 'DM Sans', sans-serif;
+}
+.nav-main {
+    font-size: 24px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.nav-right a {
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-right button {
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 16px;
+    padding: 6px 14px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.overview a {
+    color: rgb(189, 184, 184);
+    font-size: 18px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.left {
+    width: 40%;
+}
+.left h1 {
+    font-size: 58px;
+}
+.left p {
+    font-size: 16px;
+}
+.left button {
+    background-color: var(--pink);
+    color: var(--white);
+    border-radius: 16px;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/* Styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    header nav {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .nav-main {
+        font-size: 18px; 
+    }
+
+    .nav-right {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .nav-right a {
+        font-size: 16px; 
+    }
+
+    .nav-right button {
+        padding: 8px 16px;
+    }
+
+    section {
+        flex-direction: column; 
+        margin-top: 30px; 
+    }
+
+    .left {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .left h1 {
+        font-size: 36px; 
+    }
+
+    .left p {
+        font-size: 14px; 
+    }
+
+    .left button {
+        padding: 10px 14px; 
+    }
+
+    .right {
+        width: 80%; 
+        text-align: center; 
+    }
+
+    .right h1 {
+        font-size: 28px; 
+    }
+
+    .input1 {
+        width: 100%;
+    }
+
+    .terms {
+        justify-content: center; 
+    }
+
+    .hr-main {
+        text-align: center; 
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%;
+    }
+
+    .bottom {
+        justify-content: center; 
+    }
+}
+
+
+
+
+.right {
+    background-color: var(--white);
+    padding: 15px 40px;
+   width: 30%;
+}
+.right h1 {
+   color:rgba(30, 14, 98, 1);
+   text-align: center;
+   font-size: 42px;
+}
+.input1 {
+    background-color: var(--white);
+   padding: 10px 12px;
+   margin: 6px;
+   width: 85%;
+   border: 1px solid rgb(228, 227, 230);
+   border-radius: 18px;
+   
+}
+.terms {
+    display: flex;
+    gap: 10px;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+.hr {
+    display: inline-block;
+    text-align: center;
+    
+}
+hr-main {
+    text-align: center;
+}
+.btn-1 {
+    background-color: rgba(72, 43, 231, 1);
+   padding: 10px 12px;
+   margin: 6px;
+   width: 95%;
+   border-radius: 18px;
+   color: var(--white);
+   border: none;
+   cursor: pointer;
+}
+.btn-2 {
+    background-color: rgba(29, 161, 242, 1);
+   padding: 10px 12px;
+   margin: 2px 6px;
+   width: 95%;
+   border-radius: 18px;
+   color: var(--white);
+   border: none;
+   cursor: pointer;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
